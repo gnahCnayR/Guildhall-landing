@@ -6,8 +6,8 @@ const CastleScene = dynamic(() => import("@/components/CastleScene"), { ssr: fal
 
 export default function Home() {
   return (
-    <main className="h-full w-full">
-      <CastleScene />
+    <main className="h-full">
+
     </main>
   );
 }
