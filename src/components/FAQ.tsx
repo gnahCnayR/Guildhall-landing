@@ -12,7 +12,7 @@ const FAQ = () => {
     },
     {
       question: "How does task ranking work?",
-      answer: "When you create a quest (task), our AI analyzes the description and assigns it a rank and XP value based on difficulty, complexity, and importance. Ranks range from Cooper (easiest) to Adamantite (most challenging)."
+      answer: "When you create a quest (task), our AI analyzes the description and assigns it a rank and XP value based on difficulty, complexity, and importance. Ranks range from Copper (easiest) to Adamantite (most challenging)."
     },
     {
       question: "Does GuildHall integrate with other productivity tools?",

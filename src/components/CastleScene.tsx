@@ -1,4 +1,4 @@
-'use client';
+'use client'
 
 import { Canvas, useThree } from "@react-three/fiber"
 import Castle from "./Castle"

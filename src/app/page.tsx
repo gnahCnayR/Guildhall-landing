@@ -1,6 +1,7 @@
-'use client';
+'use client'
 
 import FAQ from "@/components/FAQ";
+import WhyUs from "@/components/WhyUs";
 import dynamic from "next/dynamic"
 
 const CastleScene = dynamic(() => import("@/components/CastleScene"), { ssr: false })
@@ -8,6 +9,7 @@ const CastleScene = dynamic(() => import("@/components/CastleScene"), { ssr: fal
 export default function Home() {
   return (
     <main className="h-full">
+      <WhyUs />
       <FAQ />
     </main>
   );

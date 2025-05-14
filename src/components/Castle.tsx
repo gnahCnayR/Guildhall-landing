@@ -1,4 +1,4 @@
-'use client';
+'use client'
 
 import { useAnimations, useGLTF, useScroll } from "@react-three/drei"
 import { useFrame } from "@react-three/fiber"
