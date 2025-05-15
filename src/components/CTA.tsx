@@ -26,13 +26,16 @@ const CTA = () => {
       >
         Join Guildhall today and transform your personal growth into an epic adventure!
       </motion.p>
-      <motion.button
+      <motion.a
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         className="relative px-8 py-3 bg-white text-black font-semibold rounded-lg shadow-lg hover:bg-gray-100 transition-colors"
+        href="https://www.github.com/gnahCnayR/guildhall"
+        target="_blank"
+        rel="noopener noreferrer"
       >
         Get Started
-      </motion.button>
+      </motion.a>
     </div>
   );
 };

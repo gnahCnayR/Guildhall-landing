@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="col-span-12 grid grid-cols-12 gap-x-12 md:gap-x-12 lg:gap-x-12 gap-y-10 mt-10 md:mt-0">
         <div className="z-20 col-span-6 md:col-span-4 flex items-start">
           <Image
-            src="/assets/temp-logo.svg"
+            src="/assets/logo.svg"
             alt="Guildhall Logo"
             width={200}
             height={200}

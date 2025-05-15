@@ -10,9 +10,17 @@ const CastleScene = dynamic(() => import("@/components/CastleScene"), { ssr: fal
 export default function Home() {
   return (
     <main className="h-full">
-      <WhyUs />
-      <FAQ />
-      <CTA />
+      <section id="whyus" className="relative h-screen">
+        <WhyUs /> 
+      </section>  
+      
+      <section id="faq" className="relative h-screen">
+        <FAQ />
+      </section>
+
+      <section id="cta" className="relative h-screen">
+        <CTA /> 
+      </section>
     </main>
   );
 }
