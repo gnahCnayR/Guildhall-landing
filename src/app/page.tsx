@@ -2,6 +2,7 @@
 
 import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
+import Features from "@/components/Features";
 import WhyUs from "@/components/WhyUs";
 import dynamic from "next/dynamic"
 
@@ -10,15 +11,19 @@ const CastleScene = dynamic(() => import("@/components/CastleScene"), { ssr: fal
 export default function Home() {
   return (
     <main className="h-full">
-      <section id="whyus" className="relative h-screen">
+      <section id="features">
+        <Features /> 
+      </section>  
+
+      <section id="whyus">
         <WhyUs /> 
       </section>  
       
-      <section id="faq" className="relative h-screen">
+      <section id="faq">
         <FAQ />
       </section>
 
-      <section id="cta" className="relative h-screen">
+      <section id="cta">
         <CTA /> 
       </section>
     </main>
