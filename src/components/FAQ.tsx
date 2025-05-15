@@ -25,7 +25,7 @@ const FAQ = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center w-full pt-9 pb-16 px-7">
+    <div className="flex flex-col items-center justify-center w-full pt-9 pb-16 px-7 min-h-[90vh]">
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}

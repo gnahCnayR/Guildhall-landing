@@ -1,5 +1,6 @@
 'use client'
 
+import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
 import WhyUs from "@/components/WhyUs";
 import dynamic from "next/dynamic"
@@ -11,6 +12,7 @@ export default function Home() {
     <main className="h-full">
       <WhyUs />
       <FAQ />
+      <CTA />
     </main>
   );
 }

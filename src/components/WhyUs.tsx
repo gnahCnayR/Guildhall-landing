@@ -27,7 +27,7 @@ const WhyUs = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center w-full pt-20 pb-24 px-6">
+    <div className="flex flex-col items-center justify-center w-full pt-20 pb-24 px-6 min-h-[80vh]">
         <motion.h1
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
