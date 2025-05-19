@@ -30,7 +30,7 @@ const CTA = () => {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         className="relative px-8 py-3 bg-white text-black font-semibold rounded-lg shadow-lg hover:bg-gray-100 transition-colors"
-        href="https://www.github.com/gnahCnayR/guildhall"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSeBg60o4KJwNLwvH_BoZYZjK87wEkCwsxVWqGkHgqh_6a4pRw/viewform?usp=header"
         target="_blank"
         rel="noopener noreferrer"
       >

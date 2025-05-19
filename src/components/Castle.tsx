@@ -95,7 +95,7 @@ export default function Castle() {
 
     useFrame((state, delta) => {
         if (group.current) {
-            group.current.rotation.y += delta * 0.5;
+            group.current.rotation.y += delta * 0.2;
         }
     });
 

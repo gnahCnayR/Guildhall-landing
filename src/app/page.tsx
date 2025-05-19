@@ -4,6 +4,7 @@ import CTA from "@/components/CTA";
 import FAQ from "@/components/FAQ";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
+import TitleCard from "@/components/TitleCard";
 import WhyUs from "@/components/WhyUs";
 import dynamic from "next/dynamic"
 
@@ -16,6 +17,8 @@ export default function Home() {
         {/* <CastleScene /> */}
         <Hero />
       </section>
+
+      <TitleCard />
 
       <section id="features">
         <Features /> 

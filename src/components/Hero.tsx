@@ -1,4 +1,4 @@
-'use client';
+'use client'
 
 import { motion } from 'framer-motion';
 import CastleScene from './CastleScene';
@@ -11,6 +11,15 @@ export default function Hero() {
       </div>
 
       <div className="relative h-full flex flex-col items-center pt-40 px-4">
+        <motion.div
+        initial={{ opacity: 0, y: -10 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1 }}
+        className="absolute top-8 left-12 z-10 text-white font-tinos bold text-4xl md:text-5xl tracking-wide"
+        >
+        Guildhall
+        </motion.div>
+
         {/* Credit to Hoover.dev :) */}
         <motion.h1
         initial={{ opacity: 0, y: 20 }}
