@@ -16,7 +16,7 @@ export default function TitleCard() {
         viewport={{ once: true }}
         className="text-xl md:text-3xl max-w-3xl mx-auto italic opacity-80"
       >
-        At Guildhall, we believe building better habits should feel like leveling up in a game — not checking boxes.
+        At Guildhall, we believe building better habits should feel like leveling up in a game; not checking boxes.
       </motion.h2>
 
       <motion.p
@@ -26,7 +26,7 @@ export default function TitleCard() {
         viewport={{ once: true }}
         className="mt-6 text-base md:text-lg max-w-xl text-muted-foreground text-gray-300"
       >
-        Whether you're forging discipline, mastering a craft, or just trying to get through your quest log — we're building a world where progress feels meaningful, not mechanical.
+        Whether you're forging discipline, mastering a craft, or just trying to get through your quest log, we're building a world where progress feels meaningful, not mechanical.
       </motion.p>
 
       <div className="mt-8 h-[1px] w-16 bg-[#2d594f] opacity-50" />

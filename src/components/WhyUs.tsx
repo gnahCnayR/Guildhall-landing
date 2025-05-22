@@ -7,7 +7,7 @@ const WhyUs = () => {
     {
       icon: "🧭",
       tag: "More than just a to-do list",
-      desc: "Guildhall turns your personal growth into an adventure—complete with quests, XP, and guildmates."
+      desc: "Guildhall turns your personal growth into an adventure, complete with quests, XP, and friends to support you along the way."
     },
     {
       icon: "🛡️",
@@ -27,7 +27,11 @@ const WhyUs = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center w-full pt-20 pb-24 px-6 min-h-[80vh]">
+    <section className="flex flex-col items-center justify-center w-full pt-20 pb-24 px-6 min-h-[80vh]"
+      style={{
+        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/assets/fantasy-library.png')`
+      }}
+    >
         <motion.h1
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -51,11 +55,11 @@ const WhyUs = () => {
               {item.icon}
             </div>
             <h2 className="text-xl font-bold mb-2 text-white">{item.tag}</h2>
-            <p className="text-gray-500 text-sm leading-relaxed">{item.desc}</p>
+            <p className="text-gray-300 text-sm leading-relaxed">{item.desc}</p>
           </motion.div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 
